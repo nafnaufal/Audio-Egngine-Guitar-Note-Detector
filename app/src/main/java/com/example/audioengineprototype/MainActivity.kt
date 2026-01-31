@@ -7,6 +7,8 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.audioengineprototype.audioutils.startAudioInput
+import com.example.audioengineprototype.audioutils.stopAudioInput
 
 private const val AUDIO_PERMISSION_REQUEST = 1001
 

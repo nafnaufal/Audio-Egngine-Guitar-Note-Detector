@@ -1,4 +1,4 @@
-package com.example.audioengineprototype
+package com.example.audioengineprototype.audioutils
 
 class NoteDebouncer(
     private val debounceMs: Long = 80

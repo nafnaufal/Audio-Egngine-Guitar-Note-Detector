@@ -1,4 +1,4 @@
-package com.example.audioengineprototype
+package com.example.audioengineprototype.audioutils
 
 import kotlin.math.log2
 import kotlin.math.roundToInt

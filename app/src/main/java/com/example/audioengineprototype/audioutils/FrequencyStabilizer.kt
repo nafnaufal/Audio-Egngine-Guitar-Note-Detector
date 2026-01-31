@@ -1,4 +1,4 @@
-package com.example.audioengineprototype
+package com.example.audioengineprototype.audioutils
 
 class FrequencyStabilizer(
     private val size: Int = 5

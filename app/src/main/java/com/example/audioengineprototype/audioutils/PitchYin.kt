@@ -1,6 +1,4 @@
-package com.example.audioengineprototype
-
-import kotlin.math.abs
+package com.example.audioengineprototype.audioutils
 
 fun detectPitchYin(
     buffer: FloatArray,

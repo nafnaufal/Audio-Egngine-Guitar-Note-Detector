@@ -1,4 +1,4 @@
-package com.example.audioengineprototype
+package com.example.audioengineprototype.audioutils
 
 import android.media.AudioFormat
 import android.media.AudioRecord
@@ -52,7 +52,8 @@ fun startAudioInput() {
                 if (freq in 60f..1500f) {
                     val stable = stabilizer.push(freq)
                     if (stable != null) {
-                        val note = freqToNote(stable)
+                        val note =
+                            freqToNote(stable)
                         val confirmed = debouncer.push(note)
                         if (confirmed != null) {
                             Log.d(TAG, "NOTE: $confirmed")
